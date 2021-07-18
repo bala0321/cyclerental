@@ -1,0 +1,88 @@
+{
+ "creation": "2021-07-18 20:12:18.576496",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "cycle_item",
+  "purchase_date",
+  "serial_no",
+  "customer",
+  "materials_list",
+  "kit_material_list",
+  "cycle__kit_items_history",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "cycle_item",
+   "fieldtype": "Link",
+   "label": "Cycle Item",
+   "options": "Item"
+  },
+  {
+   "fieldname": "purchase_date",
+   "fieldtype": "Date",
+   "label": "Purchase Date"
+  },
+  {
+   "fieldname": "serial_no",
+   "fieldtype": "Link",
+   "label": "Serial No",
+   "options": "Serial No"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "materials_list",
+   "fieldtype": "Table",
+   "label": "Materials List",
+   "options": "Kinisi Cycle Material"
+  },
+  {
+   "fieldname": "kit_material_list",
+   "fieldtype": "Table",
+   "label": "Kit Material List",
+   "options": "Kinisi Kit Items"
+  },
+  {
+   "fieldname": "cycle__kit_items_history",
+   "fieldtype": "Table",
+   "label": "Cycle  Kit Items History",
+   "options": "Kinisi Cycle History"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Rented\nAvailable\nMaintenance"
+  }
+ ],
+ "modified": "2021-07-18 20:17:22.457079",
+ "modified_by": "Administrator",
+ "module": "Cyclerental",
+ "name": "Kinisi Cycle",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

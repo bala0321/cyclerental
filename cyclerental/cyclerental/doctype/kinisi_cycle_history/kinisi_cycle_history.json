@@ -1,0 +1,53 @@
+{
+ "creation": "2021-07-18 20:16:35.626017",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "material",
+  "damaged_serial_no",
+  "new_serial_no",
+  "replaced_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "material",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Material",
+   "options": "Item"
+  },
+  {
+   "fieldname": "damaged_serial_no",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Damaged Serial No",
+   "options": "Serial No"
+  },
+  {
+   "fieldname": "new_serial_no",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "New Serial No",
+   "options": "Serial No"
+  },
+  {
+   "fieldname": "replaced_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Replaced Date",
+   "options": "Date"
+  }
+ ],
+ "istable": 1,
+ "modified": "2021-07-18 20:16:35.626017",
+ "modified_by": "Administrator",
+ "module": "Cyclerental",
+ "name": "Kinisi Cycle History",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
