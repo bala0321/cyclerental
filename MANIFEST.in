@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cyclerental *.css
+recursive-include cyclerental *.csv
+recursive-include cyclerental *.html
+recursive-include cyclerental *.ico
+recursive-include cyclerental *.js
+recursive-include cyclerental *.json
+recursive-include cyclerental *.md
+recursive-include cyclerental *.png
+recursive-include cyclerental *.py
+recursive-include cyclerental *.svg
+recursive-include cyclerental *.txt
+recursive-exclude cyclerental *.pyc
